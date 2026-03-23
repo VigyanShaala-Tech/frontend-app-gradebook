@@ -12,6 +12,7 @@ import './App.scss';
 import Head from './head/Head';
 import { useState, useEffect } from 'react';
 import { getAuthenticatedHttpClient } from '@edx/frontend-platform/auth';
+import { getConfig } from '@edx/frontend-platform';
 import RestrictionPage from './components/restriction-page/RestrictionPage';
 
 const RestrictionWrapper = () => {
